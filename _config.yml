@@ -19,7 +19,7 @@ email: mukesh@mukeshmithrakumar.com
 description: >-
   A Blog on all things AI, ranging from known deep learning topics to the broader software engineering principle. Check out the About Page for more topics and details
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://adhiraiyan.github.io/"
 twitter_username: MMithrakumar
 github_username:  mukeshmithrakumar
 author: Mukesh Mithrakumar
