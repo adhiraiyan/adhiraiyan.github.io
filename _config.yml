@@ -16,8 +16,9 @@
 
 title: Adhiraiyan AI Blog by Mukesh Mithrakumar
 email: mukesh@mukeshmithrakumar.com
-description: >-
-  Machine Learning is a small subset of the broader Artificial Intelligence field. This Blog is my journey learning Artificial Intelligence and this is for anyone interested in learning with me.
+# description: >-
+#   Machine Learning is a small subset of the broader Artificial Intelligence field. This Blog is my journey learning Artificial Intelligence and this is for anyone interested in learning with me.
+
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MMithrakumar
@@ -25,7 +26,7 @@ github_username:  mukeshmithrakumar
 author: Mukesh Mithrakumar
 
 # social meta
-logo: /img/logo.png
+logo: img/logo.png
 twitter:
   username: MMithrakumar
   card: summary
