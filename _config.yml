@@ -25,18 +25,20 @@ github_username:  mukeshmithrakumar
 author: Mukesh Mithrakumar
 
 # social meta
-image: /img/logo.PNG
+logo: /img/logo.PNG
 twitter:
   username: MMithrakumar
-  card: summary_large_image
+  card: summary
 
 social:
-  name: Ben Balter
+  name: Mukesh Mithrakumar
   links:
     - https://twitter.com/MMithrakumar
     - https://www.facebook.com/mukeshmithrakumar
     - https://www.linkedin.com/in/BenBalter
     - https://github.com/mukeshmithrakumar
+
+image: /img/logo.PNG
 
 # Gems
 gems: [jekyll-paginate, jekyll-seo-tag]
