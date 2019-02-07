@@ -1,0 +1,286 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.readmore {
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.readmore a:hover {
+    color: gold !important;
+}
+
+.readmore:hover {
+    color: gold !important;
+}
+
+.post-title-link h2:hover {
+    color: gold !important;
+}
+
+.searchbtn {
+    background: #7d0000;
+    border-color: #7d0000;
+}
+
+.searchbtn:hover {
+    border-color: gold !important;
+}
+
+.pagination li .active,
+.disabled {
+    color: white;
+    background-color: #7d0000 !important;
+    border-color: #7d0000 !important;
+    cursor: pointer;
+}
+
+.pagination li .active,
+.disabled:hover {
+    color: gold;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.navbar-default {
+    border-color: #e7e7e7;
+    font-family: 'Lora', serif;
+    color: #7d0000 !important;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-size: 30px;
+}
+
+.navbar-nav>li>a {
+    color: #FFFFFF !important;
+    font-size: 25px;
+}
+
+header.intro-header {
+    font-family: 'Lora', serif;
+    font-size: 5.625rem;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+header.intro-header a {
+    text-decoration: none;
+}
+
+.well {
+    background-color: black;
+    box-shadow: none;
+    border: 1px solid #E7E7E7;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.well li {
+    color: white;
+}
+
+.post-list {
+    padding-bottom:15px;
+}
+
+
+a {
+    color: #7d0000;
+    font-size:16px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+
+.excerpt p {
+    color: white;
+}
+
+.author {
+    color: white;
+}
+
+a:focus,
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.heading {
+    margin-right: 0px;
+    font-family: 'Lora', serif !important;
+    font-size: 5.625rem !important;
+}
+
+.btn-default.adhiraiyanblog {
+    background-color: black;
+    height: 35px;
+    width: 90px;
+    float: right;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+.btn-default.adhiraiyanblog:hover {
+    color: #7d0000;
+    background-color: black;
+    border-color: #adadad;
+    font-size: 16px;
+}
+
+
+.title-image {
+    width: 50px;
+}
+
+.pagination ul>li>a:hover {
+    background-color: #7d0000;
+    color: #fff;
+}
+
+.pagination ul>li>a,
+.pagination ul>li>span {
+    display: inline;
+    padding: 5px 12px;
+    line-height: 35px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.pagination ul>li {
+    display: inline;
+}
+
+a h2 {
+    color: #7d0000;
+    text-decoration: none;
+}
+
+#mc_embed_signup .button:hover {
+    color: gold;
+}
+
+#mc_embed_signup .button {
+    background-color: #7d0000 !important;
+}
+
+#mc_embed_signup .button {
+    clear: both;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: rgb(250, 243, 243);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+
+#mc_embed_signup {
+    background: black;
+    clear: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mc_embed_signup label {
+    color: white;
+}
+
+.indicates-required {
+    color: white;
+}
+
+ul.posts {
+    list-style-image: url('../img/code.png');
+}
+
+
+/* Share buttons */
+.sharebuttons {
+    margin: 0 auto 0 auto;
+}
+
+.sharebuttons ul {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.sharebuttons ul li {
+    display: inline;
+}
+
+.sharebuttons ul li a {
+    text-decoration: none;
+}
+
+.sharebuttons ul li svg {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.sharebuttons .twitter svg {
+    fill: #7d0000;
+}
+
+.sharebuttons .twitter svg:hover {
+    fill: gold;
+}
+
+.sharebuttons .linkedin svg {
+    fill: #7d0000;
+}
+
+.sharebuttons .linkedin svg:hover {
+    fill: gold;
+}
+
+.sharebuttons .facebook svg {
+    fill: #7d0000;
+}
+
+.sharebuttons .facebook svg:hover {
+    fill: gold;
+}
