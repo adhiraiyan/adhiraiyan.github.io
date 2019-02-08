@@ -7,17 +7,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Adhiraiyan AI Blog by Mukesh Mithrakumar">
-    <meta name="author" content="MUKESH MITHRAKUMAR">
-    <meta name="description" content="A Blog on all things AI, ranging from known deep learning topics
-    to the broader  AI principles. Check out the About Page for detailed topics list.">
 
     <!-------------------------------------- My meta details ------------------------------------->
 
     <link href='{{ "img/adhirayan.ico" | prepend: site.baseurl }}' type='image/icon' rel='shortcut icon' />
 
     <!-------------------------------------- Social meta details ----------------------------------->
-    <link  rel="canonical" href="https://adhiraiyan.github.io/"/>
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     {% seo %}
 
     <!---------------------------------------- CSS Files: ----------------------------------------
