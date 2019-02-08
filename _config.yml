@@ -16,8 +16,6 @@
 
 title: Adhiraiyan AI Blog by Mukesh Mithrakumar
 email: mukesh@mukeshmithrakumar.com
-description: >-
-  A Blog on all things AI, ranging from known deep learning topics to the broader software engineering principle. Check out the About Page for more topics and details
 baseurl: ""
 url: "https://adhiraiyan.github.io/"
 twitter_username: MMithrakumar
@@ -41,10 +39,12 @@ social:
 image: /img/logo.PNG
 
 # Gems
-gems: [jekyll-paginate, jekyll-seo-tag]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
