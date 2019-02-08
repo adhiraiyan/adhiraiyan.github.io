@@ -33,11 +33,12 @@ social:
 image: /img/logo.PNG
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap]
+# gems: [jekyll-paginate, jekyll-sitemap, jekyll-algolia]
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-algolia
 
 # Build settings
 markdown: kramdown
@@ -56,6 +57,11 @@ defaults:
       permalink: "/:categories/:title"
       author: "Mukesh"
 
+
+algolia:
+   application_id: 89JP3NPKQF
+   index_name: post_NAME
+   search_only_api_key: f4f60e0fc2427fe8735f2b87f0c8159c
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

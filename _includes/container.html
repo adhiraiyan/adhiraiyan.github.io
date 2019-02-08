@@ -8,21 +8,24 @@
 				{% for post in paginator.posts %}
 				<h2>
 					<img class="title-image" src="{{ "/img/adhiraiyan.jpg" | prepend: site.baseurl }}" />
-					<a class="post-link" style="font-size:30px; text-decoration:none;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<a class="post-link" style="font-size:30px; text-decoration:none;" href="{{ post.url | prepend: site.baseurl }}">{{
+						post.title }}</a>
 				</h2>
-				<p>Please read the <a href="../about.html" style="text-decoration:none;">About page</a> if you are visiting for the first time.</p>
+				<p>Please read the <a href="../about.html" style="text-decoration:none;">About page</a> if you are visiting for the
+					first time.</p>
 
 				<div class="author" style="margin-top: -10px;">Posted by
-					<i class="fa fa-user"></i><a href="https://www.mukeshmithrakumar.com/" style="text-decoration:none;"> {{ post.author}}</a>
+					<i class="fa fa-user"></i><a href="https://www.mukeshmithrakumar.com/" style="text-decoration:none;"> {{
+						post.author}}</a>
 					<span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 				</div>
 				<img src="{{ post.image | prepend: site.baseurl }}" style="width: 100%;max-height: 100%" }>
 				<div class="excerpt">{{ post.excerpt }}
-				<div class="readmore" style="float: right;">
-					{% if post.content | post_contains_excerpt_tag %}
-					<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-sm" style="color:white; background-color:#7d0000;">Read
-						more</a>
-					{% endif %}</div>
+					<div class="readmore" style="float: right;">
+						{% if post.content | post_contains_excerpt_tag %}
+						<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-sm" style="color:white; background-color:#7d0000;">Read
+							more</a>
+						{% endif %}</div>
 				</div>
 			</div>
 			<hr>
@@ -72,18 +75,21 @@
 		<div class="col-md-4">
 			<!-------------------------------------- Search Section ------------------------------------>
 			<div class="well">
-				<h4>Search</h4>
+				<h4>Google Search</h4>
 				<div class="input-group">
 					<form action="https://www.google.com" id="cse-search-box">
 						<div>
 							<input type="hidden" name="cx" value="" />
 							<input type="hidden" name="ie" value="UTF-8" />
 							<input type="text" name="q" size="30" />
-							<input type="submit" name="sa" value="Search" class="searchbtn"/>
+							<input type="submit" name="sa" value="Search" class="searchbtn" />
 						</div>
 					</form>
 					<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
 				</div>
+				<h4 class="postsearch">Posts Search</h4>
+				<a type="button" class="btn" style="color:white; background-color:#7d0000;" href="/search.html"><i class="fa fa-search">
+						Search</i></a>
 			</div>
 
 			<!-------------------------------------- Blog Categories ------------------------------------>
