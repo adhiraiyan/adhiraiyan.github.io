@@ -39,11 +39,10 @@ social:
 image: /img/logo.PNG
 
 # Gems
-gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Build settings
