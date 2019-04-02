@@ -62,7 +62,7 @@ For example, in 1997, reigning world chess champion and grand master Gary Kaspar
 
 Well, I think it's time we move from oil to solar or fusion.
 
-For the AI optimists, I tell the story of Ernest Rutherford, a nuclear physicist. On September 11th, 1933, he said, it would never be possible to extract atomic energy from atoms. So, his prediction was 'never,' but what turned out to be the case was that the next morning Leo Szilard read Rutherford's speech, became annoyed by it, and invented a nuclear chain reaction mediated by neutrons! Rutherford's prediction was 'never' and the truth was about 16 hours later. Rutherford is the father of nuclear physics, if you can't relate to nuclear physics or the fact that his work resulted in 8 Nobel prizes in Chemistry and over 50 in Nobel prizes Physics, I am sure you can relate to your LCD, LED displays at home and these resulted from his work. So take the AI predictions from experts with a grain of salt.
+For the AI optimists, I tell the story of Ernest Rutherford, a nuclear physicist. On September 11th, 1933, he said, it would never be possible to extract atomic energy from atoms. So, his prediction was 'never,' but what turned out to be the case was that the next morning Leo Szilard read Rutherford's speech, became annoyed by it, and invented a nuclear chain reaction mediated by neutrons! Rutherford's prediction was 'never' and the truth was about 16 hours later. Rutherford is the father of nuclear physics, if you can't relate to nuclear physics or the fact that his work resulted in 8 Nobel prizes in Chemistry and over 50 Nobel prizes in Physics, I am sure you can relate to your LCD, LED displays at home and these resulted from his work. So take the AI predictions from experts with a grain of salt.
 
 
 ***
