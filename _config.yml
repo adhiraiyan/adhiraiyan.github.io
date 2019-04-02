@@ -44,6 +44,10 @@ image: /img/logo.PNG
 markdown: kramdown
 paginate: 5
 
+# Code highlight
+highlighter: rouge
+
+
 paginate_path: 'page:num/'
 comments: true
 
@@ -62,15 +66,3 @@ algolia:
    application_id: 89JP3NPKQF
    index_name: post_NAME
    search_only_api_key: f4f60e0fc2427fe8735f2b87f0c8159c
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
