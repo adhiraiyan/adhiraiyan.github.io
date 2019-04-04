@@ -26,45 +26,51 @@
     <meta name="twitter:card" content="summary">
     <meta property="og:site_name" content="Adhiraiyan AI Blog by Mukesh Mithrakumar">
 
-    <!---------------------------------------- CSS Files: ----------------------------------------
+    <!-- Title, URL & Description -->
+    <meta expr:content='data:blog.pageName' property='og:title' />
+    <meta expr:content='data:blog.canonicalUrl.https' property='og:url' />
+    <meta expr:content='data:post.snippet' property='og:description' />
+
+        <!---------------------------------------- CSS Files: ----------------------------------------
     Bootstrap| Stylesheet| Font Awesome| Google Fonts| Mailchimp| Mathjax
     ---------------------------------------------------------------------------------------------->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="{{ "/css/simple-sidebar.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <link href='https://adhiraiyan.github.io/feed.xml' rel='alternate' type='application/atom+xml'>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="{{ "/css/simple-sidebar.css" | prepend: site.baseurl }}" rel="stylesheet">
+        <link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <link href='https://adhiraiyan.github.io/feed.xml' rel='alternate' type='application/atom+xml'>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
           tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
             processEscapes: true,
         }
         });
       </script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+        </script>
 
-    <!-- share this -->
-    <script type="text/javascript">
-        var switchTo5x = true;
-    </script>
-    <script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">
-        stLight.options({
-            publisher: "b28464c3-d287-4257-ad18-058346dd35f7",
-            doNotHash: false,
-            doNotCopy: false,
-            hashAddressBar: false
-        });
-    </script>
+        <!-- share this -->
+        <script type="text/javascript">
+            var switchTo5x = true;
+        </script>
+        <script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">
+            stLight.options({
+                publisher: "b28464c3-d287-4257-ad18-058346dd35f7",
+                doNotHash: false,
+                doNotCopy: false,
+                hashAddressBar: false
+            });
+        </script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
