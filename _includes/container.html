@@ -6,11 +6,11 @@
 		<div class="col-lg-8">
 			<div class="post-list" style="list-style-type: none;">
 				{% for post in paginator.posts %}
-				<h2>
-					<img class="title-image" src="{{ "/img/adhiraiyan.jpg" | prepend: site.baseurl }}" />
+				<h1>
+					<img alt = "Adhiraiyan Logo" class="title-image" src="{{ "/img/adhiraiyan.jpg" | prepend: site.baseurl }}" />
 					<a class="post-link" style="font-size:30px; text-decoration:none;" href="{{ post.url | prepend: site.baseurl }}">{{
 						post.title }}</a>
-				</h2>
+				</h1>
 				<p>Please read the <a href="../about.html" style="text-decoration:none;">About page</a> if you are visiting for the
 					first time.</p>
 
@@ -19,7 +19,7 @@
 						post.author}}</a>
 					<span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 				</div>
-				<img src="{{ post.image | prepend: site.baseurl }}" style="width: 100%;max-height: 100%" }>
+				<img alt = "Topic Image" src="{{ post.image | prepend: site.baseurl }}" style="width: 100%;max-height: 100%" }>
 				<div class="excerpt">{{ post.excerpt }}
 					<div class="readmore" style="float: right;">
 						{% if post.content | post_contains_excerpt_tag %}
