@@ -2,7 +2,7 @@
 title:  "What it means to have Artificial Intelligence"
 date:   2019-04-01
 categories: ['AI']
-image: /img/ai/ai.jpg
+image: /img/ai/aiog.jpg
 
 ---
 <a name="contents"></a>
