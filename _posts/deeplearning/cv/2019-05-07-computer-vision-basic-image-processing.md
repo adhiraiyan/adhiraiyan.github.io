@@ -1,8 +1,8 @@
 ---
-title:  "Computer Vision: Basic Image Processing"
+title:  "Computer Vision Basic Image Processing"
 date:   2019-05-07
 categories: ['DeepLearning']
-tags: ['ComputerVision']
+tags: ['Computer Vision']
 image: /img/cv/cvog.jpg
 
 ---
