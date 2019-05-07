@@ -25,7 +25,7 @@ image: /img/cv/cvog.jpg
 We need to process images for human perception, for machine perception, transform image for technical purposes and finally for pure entertainment (visual effects).
 
 ***
-### <a name="2"></a>Where are the source of errors and image defects?
+### <a name="2"></a>Where are the sources of errors and image defects?
 <p align="right"><a href="#contents"><sup>▴ Back to top</sup></a></p>
 
 Sources of errors and image defects in an image are usually introduced in the image pipeline, such a pipeline is shown below:
