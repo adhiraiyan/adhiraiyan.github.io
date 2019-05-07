@@ -3,3 +3,4 @@ _drafts
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+_algolia_api_key
