@@ -6,11 +6,11 @@ image: /img/ai/aiog.jpg
 
 ---
 <a name="contents"></a>
-- [What is Intelligence?](#1)
-- [What is Artificial Intelligence?](#2)
-- [How old really is AI?](#3)
-- [Where does Machine Learning and Deep Learning fit into in AI?](#4)
-- [Is Machine Learning or Deep Learning the only way forward?](#5)
+- [What is Intelligence?](https://www.adhiraiyan.org/ai/what-it-means-to-have-ai#1)
+- [What is Artificial Intelligence?](https://www.adhiraiyan.org/ai/what-it-means-to-have-ai#2)
+- [How old really is AI?](https://www.adhiraiyan.org/ai/what-it-means-to-have-ai#3)
+- [Where does Machine Learning and Deep Learning fit into in AI?](https://www.adhiraiyan.org/ai/what-it-means-to-have-ai#4)
+- [Is Machine Learning or Deep Learning the only way forward?](https://www.adhiraiyan.org/ai/what-it-means-to-have-ai#5)
 <!-- more -->
 
 

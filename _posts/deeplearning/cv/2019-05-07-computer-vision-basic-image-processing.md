@@ -7,16 +7,16 @@ image: /img/cv/cvog.jpg
 
 ---
 <a name="contents"></a>
-- [Why do we need to process images?](#1)
-- [Where are the source of errors and image defects?](#2)
-- [How can we improve low image contrast?](#3)
-- [How do we evaluate the tone transfer in an image?](#4)
-- [How do we improve the contrast in an image?](#5)
-- [What can we use when linear correction can't be applied?](#6)
-- [How can we treat noisy images?](#7)
-- [How are Filter Kernels are used for Image Processing?](#8)
-- [What is Edge Detection?](#9)
-- [What is a Canny Edge Detector?](#10)
+- [Why do we need to process images?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#1)
+- [Where are the source of errors and image defects?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#2)
+- [How can we improve low image contrast?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#3)
+- [How do we evaluate the tone transfer in an image?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#4)
+- [How do we improve the contrast in an image?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#5)
+- [What can we use when linear correction can't be applied?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#6)
+- [How can we treat noisy images?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#7)
+- [How are Filter Kernels are used for Image Processing?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#8)
+- [What is Edge Detection?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#9)
+- [What is a Canny Edge Detector?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#10)
 <!-- more -->
 
 ***
