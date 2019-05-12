@@ -14,7 +14,7 @@ image: /img/cv/cvog.jpg
 - [How do we improve the contrast in an image?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#5)
 - [What can we use when linear correction can't be applied?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#6)
 - [How can we treat noisy images?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#7)
-- [How are Filter Kernels are used for Image Processing?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#8)
+- [How are Filter Kernels used for Image Processing?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#8)
 - [What is Edge Detection?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#9)
 - [What is a Canny Edge Detector?](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#10)
 <!-- more -->
@@ -106,7 +106,7 @@ These weights are jointly named as **Filter kernel**. And the simplest case is e
 
 
 ***
-### <a name="8"></a> How are Filter Kernels are used for Image Processing?
+### <a name="8"></a> How are Filter Kernels used for Image Processing?
 <p align="right"><a href="#contents"><sup>▴ Back to top</sup></a></p>
 
 The simplest box filter is the identity filter. Applying this filter for an image will result in no change to the image:
@@ -210,7 +210,7 @@ Change in intensity is not the only source of edge detection. Change in color or
 ***
 ### ️⭐️ Coming Up Next: Computer Vision: Image Classification (05.14.2019)
 
-I would love to hear from you, if you need more explanations, have any doubts or questions, you can comment below and I promise I'll get back to you.
+I would love to hear from you, if you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan).
 
 $$
 \color{Orange}{\text{“A candle loses nothing by lighting another candle.”}}🔥
