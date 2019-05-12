@@ -118,7 +118,7 @@ So, where to next, Einstein wouldn't have been able to come up with the theory o
 ***
 ### ️⭐️ Next Post: Computer Vision: Basic Image Processing
 
-Read about [Computer Vision: Basic Image Processing](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing#contents)
+Read about [Computer Vision: Basic Image Processing](https://www.adhiraiyan.org/deeplearning/computer-vision-basic-image-processing)
 
 I would love to hear from you, if you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan).
 
