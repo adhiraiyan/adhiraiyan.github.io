@@ -194,13 +194,15 @@ Gradient Magnitude Estimation is not a complete edge detector because they miss 
 
 The Canny Edge Detector has two steps for gradient estimation.
 
-1. Non maximum suppression: During this step, the thin multi pixel of wide reaches down to a single pixel width.
+1. Non maximum suppression: During this step, the thin multi pixel of width reaches down to a single pixel width.
 
-This is done by identifying the points in either pixel rows along the image gradient vector. For a point *q* we have maximum if its value is larger than two points *q* and *r*. To get values in *p* and *r* we interpolate from neighbor pixels.
+This is done by identifying the points in either pixel rows along the image gradient vector. For a point *q* we have maximum if its value is larger than two points *q* and *r*. To get values in *p* and *r* we interpolate from neighbor pixels. In simple terms, the algorithm goes through all the points on the gradient intensity matrix and finds the pixels with the maximum values in the edge direction.
 
 2. Linking Edge pixels together to form continuous boundaries.
 
 This is done by assuming a point as an edge point, then we construct the tangent to the edge curve (which is normal to the gradient in that point) and use this to predict the next points. And we select the point with the largest gradient and link it to the current point. For linking edge points, we use hysteresis. Hysteresis is just two thresholds. We use a high threshold to start edge curves and a low threshold to continue them.
+
+<img src="/img/cv/20190215/20190215o.PNG" alt="Double Threshold for Canny Edge Detector" class="center-image">
 
 By varying the sigma in gradient computation or the size of Gaussian smoothing or the size of derivative for Gaussian filter. It can detect edges on different scales, large sigma detects large scale edges. Small sigma detects fine features in images.
 
