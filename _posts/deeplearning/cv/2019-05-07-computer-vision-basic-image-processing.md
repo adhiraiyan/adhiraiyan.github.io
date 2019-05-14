@@ -30,7 +30,7 @@ We need to process images for human perception, for machine perception, transfor
 
 Sources of errors and image defects in an image are usually introduced in the image pipeline, such a pipeline is shown below:
 
-<img src="/img/cv/20190215/20190215a.PNG" alt="From Image to sensor batman" class="center-image">
+<img src="/img/cv/20190507/20190507a.PNG" alt="From Image to sensor batman" class="center-image">
 
 Some of the image defects that can be introduced are:
 - low contrast,
@@ -53,7 +53,7 @@ Brightness correction can improve overall contrast in an image. There are two ma
 
 We use Brightness histograms to evaluate the tone transfer in an image. The brightness histogram is the chart of brightness distribution in an image.
 
-<img src="/img/cv/20190215/20190215b.PNG" alt="Brightness histogram" class="center-image">
+<img src="/img/cv/20190507/20190507b.PNG" alt="Brightness histogram" class="center-image">
 
 On horizontal axis, brightness varies from black to white, on the vertical axis, the number of pixels absolute or normalized is the respective brightness value.
 
@@ -73,7 +73,7 @@ Linear correction is a point operator that comes compensated of limited histogra
 
 Below is an example of linear correction:
 
-<img src="/img/cv/20190215/20190215c.PNG" alt="Example of linear correction" class="center-image">
+<img src="/img/cv/20190507/20190507c.PNG" alt="Example of linear correction" class="center-image">
 
 Some images are composed of very dark and very light pixels and such images can't be corrected using linear correction. For those kinds of images we use non linear correction.
 
@@ -91,7 +91,7 @@ By controlling the parameter gamma we can control the Gamma transformation.
 
 Below is an example of gamma transformation:
 
-<img src="/img/cv/20190215/20190215d.PNG" alt="Example of gamma transformation" class="center-image">
+<img src="/img/cv/20190507/20190507d.PNG" alt="Example of gamma transformation" class="center-image">
 
 
 ***
@@ -111,29 +111,29 @@ These weights are jointly named as **Filter kernel**. And the simplest case is e
 
 The simplest box filter is the identity filter. Applying this filter for an image will result in no change to the image:
 
-<img src="/img/cv/20190215/20190215e.PNG" alt="Example of identity filter" class="center-image">
+<img src="/img/cv/20190507/20190507e.PNG" alt="Example of identity filter" class="center-image">
 
 But by moving the 1 in the center of the kernel to other places, the resulting image will be shifted by one pixel.
 
 Generally, any filter kernel with positive weights with sum equal to 1 will be image smoothing filter. This smoothing is what introduces blur to an image.
 
-<img src="/img/cv/20190215/20190215f.PNG" alt="Example of smoothing with box filter" class="center-image">
+<img src="/img/cv/20190507/20190507f.PNG" alt="Example of smoothing with box filter" class="center-image">
 
 As seen in the image on top, using a box filter introduces edge effects to the image and to eliminate these effects, weight contribution of the neighboring pixels should be according to the closeness to the center:
 
-<img src="/img/cv/20190215/20190215g.PNG" alt="Example of smoothing with gaussian filter" class="center-image">
+<img src="/img/cv/20190507/20190507g.PNG" alt="Example of smoothing with gaussian filter" class="center-image">
 
 We can set these filter weights according to two dimensional Gaussian distribution, centered at the filter center with arbitrary sigma:
 
 $$\color{Orange}{G_{\sigma} = \frac{1}{2 \pi \sigma^2} e^{-\frac{x^2 + y^2}{2 \sigma^2}} \tag{4}}$$
 
-<img src="/img/cv/20190215/20190215h.PNG" alt="Gaussian Kernel Image" class="center-image">
+<img src="/img/cv/20190507/20190507h.PNG" alt="Gaussian Kernel Image" class="center-image">
 
 These filters are called the **Gaussian Filters**.
 
 Gaussian filters have infinite support, but discrete filters use finite kernels. For the same sigma, we can build filters of different sizes:
 
-<img src="/img/cv/20190215/20190215i.PNG" alt="Choosing Kernel Width" class="center-image">
+<img src="/img/cv/20190507/20190507i.PNG" alt="Choosing Kernel Width" class="center-image">
 
 Gaussian filter is the only filter that doesn't add any spurious lines to an image when applied.
 
@@ -141,11 +141,11 @@ Applying Gaussian filter can reduce noise in image but it also blurs the image. 
 
 Image convolution can be used to reduce image blur and make the edges more pronounced. This can be done easily as follows:
 
-<img src="/img/cv/20190215/20190215j.PNG" alt="Sharpening" class="center-image">
+<img src="/img/cv/20190507/20190507j.PNG" alt="Sharpening" class="center-image">
 
 We can combine all of the above operations into a single convolution, approximating it with the Laplacian of Gaussian.
 
-<img src="/img/cv/20190215/20190215k.PNG" alt="Unsharp Mask Filter" class="center-image">
+<img src="/img/cv/20190507/20190507k.PNG" alt="Unsharp Mask Filter" class="center-image">
 
 
 ***
@@ -156,7 +156,7 @@ The goal of edge detection is to identify sudden changes (discontinuities) in an
 
 The edges are points of rapid changes in image intensity, such points can be identified by considering the first derivative of the image intensity and edges will correspond to local extrema of derivative:
 
-<img src="/img/cv/20190215/20190215l.PNG" alt="Characterizing edges" class="center-image">
+<img src="/img/cv/20190507/20190507l.PNG" alt="Characterizing edges" class="center-image">
 
 Since image is a two dimensional function, we need to calculate image gradients as vector of potential derivative of image intensity function. So image gradient is a vector given as below:
 
@@ -176,11 +176,11 @@ $$\color{Orange}{\frac{\partial f}{\partial x} = \frac{f(x_{n+1}, y) - f(x_n, y)
 
 Which can be written as a simple convolution:
 
-<img src="/img/cv/20190215/20190215m.PNG" alt="Differentiation & Convolution" class="center-image">
+<img src="/img/cv/20190507/20190507m.PNG" alt="Differentiation & Convolution" class="center-image">
 
 Some examples of other approximations of derivative filters:
 
-<img src="/img/cv/20190215/20190215n.PNG" alt="Finite Difference Filters" class="center-image">
+<img src="/img/cv/20190507/20190507n.PNG" alt="Finite Difference Filters" class="center-image">
 
 The finite difference filters respond strongly when there is noise in the image. This happens because noise results in pixels that look very different from the neighborhoods which leads to a lot of false responses by the finite difference filters leading to edge disappearance.
 
@@ -202,7 +202,7 @@ This is done by identifying the points in either pixel rows along the image grad
 
 This is done by assuming a point as an edge point, then we construct the tangent to the edge curve (which is normal to the gradient in that point) and use this to predict the next points. And we select the point with the largest gradient and link it to the current point. For linking edge points, we use hysteresis. Hysteresis is just two thresholds. We use a high threshold to start edge curves and a low threshold to continue them.
 
-<img src="/img/cv/20190215/20190215o.PNG" alt="Double Threshold for Canny Edge Detector" class="center-image">
+<img src="/img/cv/20190507/20190507o.PNG" alt="Double Threshold for Canny Edge Detector" class="center-image">
 
 By varying the sigma in gradient computation or the size of Gaussian smoothing or the size of derivative for Gaussian filter. It can detect edges on different scales, large sigma detects large scale edges. Small sigma detects fine features in images.
 
@@ -218,4 +218,4 @@ $$
 \color{Orange}{\text{“A candle loses nothing by lighting another candle.”}}🔥
 $$
 
-Share the post if you find it useful so someone else might as well 😉.
+Share the post if you find it useful so someone else might as well 😉 and 🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!

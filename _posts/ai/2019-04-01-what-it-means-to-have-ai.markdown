@@ -126,4 +126,4 @@ $$
 \color{Orange}{\text{“A candle loses nothing by lighting another candle.”}}🔥
 $$
 
-Share the post if you find it useful so someone else might as well 😉.
+Share the post if you find it useful so someone else might as well 😉 and 🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!
