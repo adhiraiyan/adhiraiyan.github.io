@@ -81,7 +81,7 @@ Below is an example for these challenges:
 
 - Inception V3 (2015) : 25 million parameters, 22 layers. The idea of having inception blocks is connected to both the reduction of computational complexity and the efficient use of local image structure. The correlation statistics over the last layer is analyzed and clustered into groups of units with high correlations. In the layers close to the input, correlated units would concentrate in local regions. Thus we would end up with a lot of clusters concentrated in a single region, and then can be covered by a layer of one by one convolutions in the next layer.
 
-<img width="80%" src="/img/cv/20190526/20190526e.PNG" alt="Inception architecture" class="center-image">
+<img width="80%" src="/img/cv/20190526/20190526e.png" alt="Inception architecture" class="center-image">
 
 The idea of having one by one convolution is that such convolutions can capture interactions of local channels in one pixel of the feature map. They form sort of dimensionality reduction with added ReLU activation that is necessary to remove redundant feature maps from the previous layer.
 
