@@ -6,7 +6,6 @@ tags: ['Computer Vision', 'CNN']
 image: /img/cv/cvog.jpg
 
 ---
-
 <a name="contents"></a>
 - [What is Image Classification?](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification#1)
 - [How does humans perform Image Classification?](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification#2)
@@ -69,15 +68,15 @@ Below is an example for these challenges:
 
 - LeNet (1998) : 32x32 gray scale input image, 5-layer convolutional feature extractor.
 
-<img src="/img/cv/20190526/20190526b.PNG" alt="LeNet architecture" class="center-image">
+<img width="70%" src="/img/cv/20190526/20190526b.PNG" alt="LeNet architecture" class="center-image">
 
 - AlexNet (2012) : 11x11, 5x5, 3x3 convolutions, max pooling, dropout, data augmentation, ReLU activations, SGD with momentum.
 
-<img src="/img/cv/20190526/20190526c.PNG" alt="AlexNet architecture" class="center-image">
+<img width="70%" src="/img/cv/20190526/20190526c.PNG" alt="AlexNet architecture" class="center-image">
 
 - VGG (2014) : 138 million parameters, 18 layers. Used 3x3 layers for more non linearity and less parameters to learn.
 
-<img src="/img/cv/20190526/20190526d.PNG" alt="VGG architecture" class="center-image">
+<img width="70%" src="/img/cv/20190526/20190526d.PNG" alt="VGG architecture" class="center-image">
 
 - Inception V3 (2015) : 25 million parameters, 22 layers. The idea of having inception blocks is connected to both the reduction of computational complexity and the efficient use of local image structure. The correlation statistics over the last layer is analyzed and clustered into groups of units with high correlations. In the layers close to the input, correlated units would concentrate in local regions. Thus we would end up with a lot of clusters concentrated in a single region, and then can be covered by a layer of one by one convolutions in the next layer.
 
@@ -106,7 +105,9 @@ Dividing the fine-grained dataset into multiple visually similar subsets or dire
 
 
 ***
-### ️⭐️ Coming Up Next: Computer Vision: Image Retrieval (06.09.2019)
+### ️⭐️ Next Post: Computer Vision: Image Retrieval
+
+Read about [Computer Vision: Image Retrieval](https://www.adhiraiyan.org/deeplearning/computer-vision-image-retrieval)
 
 This post is meant to be an introduction to image classification, in my future posts, we will delve deeper into the architectures and other important concepts in Image Classification.
 
