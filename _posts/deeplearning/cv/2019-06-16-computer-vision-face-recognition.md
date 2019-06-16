@@ -1,7 +1,7 @@
 ---
 title:  "Computer Vision: Face Recognition"
 date:   2019-06-16
-categories: ['Deep Learning']
+categories: ['DeepLearning']
 tags: ['Computer Vision', 'CNN']
 image: /img/cv/cvog.jpg
 
