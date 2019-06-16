@@ -214,10 +214,6 @@ Change in intensity is not the only source of edge detection. Change in color or
 
 Read about [Computer Vision: Image Classification](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification)
 
-I would love to hear from you, if you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan).
+If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 
-$$
-\color{Orange}{\text{“A candle loses nothing by lighting another candle.”}}🔥
-$$
-
-Share the post if you find it useful so someone else might as well 😉 and 🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!
+🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!

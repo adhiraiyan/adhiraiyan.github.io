@@ -109,8 +109,6 @@ Dividing the fine-grained dataset into multiple visually similar subsets or dire
 
 Read about [Computer Vision: Image Retrieval](https://www.adhiraiyan.org/deeplearning/computer-vision-image-retrieval)
 
-This post is meant to be an introduction to image classification, in my future posts, we will delve deeper into the architectures and other important concepts in Image Classification.
-
-If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan), I would love to hear from you 🙂.
+If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 
 🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!

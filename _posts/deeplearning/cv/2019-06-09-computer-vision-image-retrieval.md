@@ -26,7 +26,7 @@ image: /img/cv/cvog.jpg
 ***
 ### <a name="1"></a> What is content based image retrieval?
 
-Content based image retrieval is the task of retrieving images from a large database using a query by image content rather than using metadata. The term content in this context might refer to colors, shapes, textures or any other information that can be derived only from the image itself. This bears similarity to image classification and face identification problems, yet focuses on scaling to huge image collections via approximate methods.
+Content based image retrieval is the task of retrieving images from a large database using a query by image content rather than using metadata. The term content in this context might refer to colors, shapes, textures or any other information that can be derived only from the image itself. This bears similarity to [image classification](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification) and face identification problems, yet focuses on scaling to huge image collections via approximate methods.
 
 Content based image retrieval pipeline is shown below:
 
@@ -177,8 +177,10 @@ We then select the images whose binary codes differ from the query in less than 
 
 
 ***
-### ️⭐️ Coming Up Next: Computer Vision: Face Recognition (06.23.2019)
+### ️⭐️ Next Post: Computer Vision: Face Recognition
 
-If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan), I would love to hear from you 🙂.
+Read about [Computer Vision: Face Recognition](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition)
+
+If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 
 🔔 [Subscribe](https://www.adhiraiyan.org/subscribe.html) 🔔 so you don't miss any of my future posts!
