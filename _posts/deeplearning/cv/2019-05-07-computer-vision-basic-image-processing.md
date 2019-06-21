@@ -212,7 +212,7 @@ Change in intensity is not the only source of edge detection. Change in color or
 ***
 ### ️⭐️ Next Post: Computer Vision: Image Classification
 
-Read about [Computer Vision: Image Classification](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification)
+Read about [Computer Vision: Image Classification](https://www.adhiraiyan.org/deeplearning/computer-vision-image-classification).
 
 If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 

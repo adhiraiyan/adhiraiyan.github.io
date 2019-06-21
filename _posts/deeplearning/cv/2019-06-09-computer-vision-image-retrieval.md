@@ -179,7 +179,7 @@ We then select the images whose binary codes differ from the query in less than 
 ***
 ### ️⭐️ Next Post: Computer Vision: Face Recognition
 
-Read about [Computer Vision: Face Recognition](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition)
+Read about [Computer Vision: Face Recognition](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition).
 
 If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 

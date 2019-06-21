@@ -107,7 +107,7 @@ Dividing the fine-grained dataset into multiple visually similar subsets or dire
 ***
 ### ️⭐️ Next Post: Computer Vision: Image Retrieval
 
-Read about [Computer Vision: Image Retrieval](https://www.adhiraiyan.org/deeplearning/computer-vision-image-retrieval)
+Read about [Computer Vision: Image Retrieval](https://www.adhiraiyan.org/deeplearning/computer-vision-image-retrieval).
 
 If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 
