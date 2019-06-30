@@ -8,7 +8,7 @@ image: /img/cv/cvog.jpg
 ---
 <a name="contents"></a>
 - [What is face recognition?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#1)
-- [What is Face verification evaluation protocol?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#2)
+- [What is face verification evaluation protocol?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#2)
 - [How is face verification solved?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#3)
 - [What is a triplet loss training scheme?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#4)
 - [What is the re-identification problem?](https://www.adhiraiyan.org/deeplearning/computer-vision-face-recognition#5)
@@ -146,7 +146,9 @@ Couple of disadvantages of active shape model are, one, the initial shape may be
 
 
 ***
-### ️⭐️ Coming up Next: Computer Vision: Object Detection (06.30.2019)
+### ️⭐️ Next Post: Computer Vision: Object Detection
+
+Read about [Computer Vision: Object Detection](https://www.adhiraiyan.org/deeplearning/computer-vision-object-detection).
 
 If you need more explanations, have any doubts or questions, you can comment below or reach out to me personally via [Facebook](https://www.facebook.com/adhiraiyan) or [LinkedIn](https://www.linkedin.com/in/mukesh-mithrakumar/), I would love to hear from you 🙂.
 
