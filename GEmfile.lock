@@ -6,7 +6,7 @@ GEM
     algolia_html_extractor (2.2.1)
       awesome_print (~> 1.6)
       json (~> 2.0)
-      nokogiri (~> 1.8)
+      nokogiri (>= 1.10.4)
     algoliasearch (1.25.2)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
@@ -63,7 +63,7 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.1-x64-mingw32)
+    nokogiri (1.10.4-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -90,6 +90,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
+  nokogiri (>= 1.10.4)
   rouge
 
 BUNDLED WITH
