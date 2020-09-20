@@ -1,8 +1,8 @@
 ---
 title:  "Computer Vision: Image Classification"
 date:   2019-05-26
-categories: ['DeepLearning']
-tags: ['Computer Vision', 'CNN']
+categories: ['ComputerVision']
+tags: ['CNN']
 image: /img/cv/cvog.jpg
 
 ---

@@ -1,8 +1,8 @@
 ---
 title:  "Computer Vision: Image Retrieval"
 date:   2019-06-09
-categories: ['DeepLearning']
-tags: ['Computer Vision', 'CNN']
+categories: ['ComputerVision']
+tags: ['CNN']
 image: /img/cv/cvog.jpg
 
 ---

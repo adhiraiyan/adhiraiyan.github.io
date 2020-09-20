@@ -1,8 +1,8 @@
 ---
 title:  "Computer Vision: Face Recognition"
 date:   2019-06-16
-categories: ['DeepLearning']
-tags: ['Computer Vision', 'CNN']
+categories: ['ComputerVision']
+tags: ['CNN']
 image: /img/cv/cvog.jpg
 
 ---
@@ -31,7 +31,7 @@ Face recognition performance is reported in three standard tasks:
 
 
 ***
-### <a name="2"></a>What is Face verification evaluation protocol?
+### <a name="2"></a> What is Face verification evaluation protocol?
 <p align="right"><a href="#contents"><sup>▴ Back to top</sup></a></p>
 
 - An image $p_j$ is presented to the system with gallery *G*
